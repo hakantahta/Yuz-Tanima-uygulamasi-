@@ -11,6 +11,9 @@ Yüz Tespiti: Kamera akışında yüzleri tespit eder.
 Duygu Analizi: Tespit edilen yüzler üzerinde duygu analizi yapar (örneğin, mutlu, üzgün, kızgın vb.).
 Görüntüleme: Duygu tespiti sonuçlarını gerçek zamanlı olarak görüntüler.
 
+Yüz tanıma için genellikle haar cascade ve benzeri algoritmalar kullanılırken, 
+duygusal analiz için Convolutional Neural Networks (CNNs) gibi derin öğrenme teknikleri daha etkilidir.
+
 Sonuçlar
 Kod, video akışında tespit edilen yüzlerin duygularını gerçek zamanlı olarak tespit eder ve bu duyguları ekranda gösterir. 
 Kullanıcı, bu uygulama sayesinde bir kişinin yüz ifadesine göre duygusal durumunu tahmin edebilir.
